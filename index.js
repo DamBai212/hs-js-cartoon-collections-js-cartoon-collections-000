@@ -6,7 +6,7 @@ let array = [];
 }
 
 function summonCaptainPlanet(planeteerCalls){
-  return planeteerCalls.map(name => { return name.toUpperCase + '!'})
+  return planeteerCalls.map(name => { return name.toUpperCase() + '!'})
 }
 
 function longPlaneteerCalls(words) {
