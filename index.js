@@ -1,6 +1,6 @@
 function dwarfRollCall(dwarves) {
 let array = [];
- dwarves.forEach((name,i) =>
+ dwarves.forEach((dwarf,i) =>
    array.push(`${i+1}. ${dwarves[i]} `))
      return array.join("")
 }
@@ -18,8 +18,9 @@ function longPlaneteerCalls(words) {
 }
 
 function findTheCheese (foods) {
+ var cheese = ["cheddar", "gouda", "camembert"]
   for(var i = 0; i < foods.length; i++) {
-    if(foods[i] === 'cheddar') {
+    if(cheese.includes(foods[i])) {
       return foods[i];
     }
   }
