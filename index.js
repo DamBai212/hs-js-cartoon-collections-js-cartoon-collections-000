@@ -3,7 +3,7 @@ var array = [];
     dwarves.forEach(function (dwarf,i){
     array.push(i+1 +". " + dwarf)
   });
-  return array.join(" ");
+  return array.join("");
  }
 
 function summonCaptainPlanet(planeteerCalls){
